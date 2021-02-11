@@ -13,6 +13,7 @@ body {
 .right {
     text-align: right;
 }
+
 .fs-20 {
     font-size: 20px;
 }
@@ -28,7 +29,7 @@ body {
     align-items: center;
 }
 
-#menu li{
+#menu li {
     display: inline;
     padding: 15px;
 }
@@ -38,10 +39,12 @@ body {
     color: black;
     font-size: 20px;
 }
+
 .p-30 {
     padding: 30px;
     line-height: 1.5em;
 }
+
 /*.br-50 {
     border-radius: 50%;
 }*/
@@ -49,6 +52,7 @@ body {
     width: 500px;
     height: 500px;
 }
+
 .tm-social {
     width: 50px;
     height: 50px;
@@ -61,6 +65,7 @@ body {
 .ml-50 {
     margin-left: 50px;
 }
+
 .footer-color {
     background-color: #BBDEFB;
 }
@@ -69,6 +74,7 @@ body {
     overflow: hidden;
     background-color: #0077B5;
 }
+
 .topnav a {
     float: left;
     display: block;
@@ -77,18 +83,18 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 16px;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
+
 .topnav a:hover {
     background-color: #BBDEFB;
     color: black;
 }
-.bd-font p{
-    font-family: 'Roboto',sans-serif;
+
+.bd-font p {
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     text-decoration: none;
 }
 
 /* Estilo da página contato.html*/
-
-
