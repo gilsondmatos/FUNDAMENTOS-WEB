@@ -1,7 +1,17 @@
 /* Estilo da página index.html*/
 
+body {
+    background-color: #F2F5F7;
+    font-family: 'Roboto', sans-serif;
+
+}
+
 .center {
     text-align: center;
+}
+
+.right {
+    text-align: right;
 }
 .fs-20 {
     font-size: 20px;
@@ -23,10 +33,6 @@
     padding: 15px;
 }
 
-#menu li a:hover{
-color: grey;
-}
-
 #menu li a {
     text-decoration: none;
     color: black;
@@ -36,12 +42,12 @@ color: grey;
     padding: 30px;
     line-height: 1.5em;
 }
-.br-50 {
+/*.br-50 {
     border-radius: 50%;
-}
+}*/
 .wh-300 {
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
 }
 .tm-social {
     width: 50px;
@@ -52,8 +58,37 @@ color: grey;
     margin-bottom: 50px;
 }
 
-/* Estilo da página contato.html*/
-
 .ml-50 {
     margin-left: 50px;
 }
+.footer-color {
+    background-color: #BBDEFB;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #0077B5;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Roboto',sans-serif;
+}
+.topnav a:hover {
+    background-color: #BBDEFB;
+    color: black;
+}
+.bd-font p{
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* Estilo da página contato.html*/
+
+
