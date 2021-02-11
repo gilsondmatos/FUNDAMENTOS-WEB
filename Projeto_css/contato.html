@@ -24,18 +24,19 @@
     <div>
         <form>
             <label for="nome">Nome:</label><br>
-            <input type="text" id="nome">
-            <br>
+            <input type="text" id="nome" onkeyup="validaNome()">
+            <div id="txtNome"></div>
             <br>
             <label for="email">Endereço de e-mail: </label><br>
-            <input type="email" id="email">
-            <br>
+            <input type="email" id="email" onkeyup="validaEmail()">
+            <div id="txtEmail"></div>
             <br>
             <label for="assunto">Descrição:</label><br>
-            <textarea name="Assunto" id="assunto" cols="60" rows="5"></textarea>
+            <textarea name="Assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()"></textarea>
+             <div id="txtAssunto"></div>
         </form>
         <br>
-         <button>Enviar</button>
+         <button onclick="enviar()">Enviar</button>
     </div>
    
     <div class="ml-50">
@@ -45,7 +46,7 @@
 
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074.026887882933!2d-46.724188606601444!3d-23.61671554292209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1
         !3m3!1m2!1s0x94ce56ccb54e054f%3A0x6e48c00fd7bf2213!2sR.%20Iratinga%2C%20420%20-%20Vila%20Andrade%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005665-000!5e0!3m2!1spt-BR!2sbr!
-        4v1612895877969!5m2!1spt-BR!2sbr" width="400" height="300" frameborder="10" style="border: 10px;" allowfullscreen="" aria-hidden="false" tabindex="0">
+        4v1612895877969!5m2!1spt-BR!2sbr" width="400" height="300" frameborder="10" style="border: 0;" allowfullscreen="" aria-hidden="false" tabindex="0" onmousemove='mapaZoom()' onmouseout='mapaNormal()' id='mapa'>
         </iframe>
     </div>
 </div>
@@ -63,6 +64,10 @@
       <p class="center">Todos direitos reservados Gilson Amorim &copy;</p>
   
    </footer>
+
+   <script src="assets/js/script.js">
+
+   </script>
 
 
 
