@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amori</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <!-- Modal video -->
+    <link rel="stylesheet" type="text/css" href="/path/to/modal-video.min.css">
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">   
+</head>
+<body>
+
+<header>
+    <!-- Inicio barra de navegação -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand texto-cor-especial fonte-titulo tamanho-fonte-especial" href="index.html">Amori</a>
+        <button 
+            class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active fs-5" aria-current="page" href="#">início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active fs-5" href="#">quem somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active fs-5" href="#">receitas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active fs-5" data-bs-toggle="modal" data-bs-target="#modal-contato" href="#">contato</a>
+                </li>
+            </ul>
+           
+        </div>
+    </div>
+    </nav>
+</header>
+<!-- Fim da barra de navegação -->
+
+<main>
+    <section class="carrosel">
+        <!-- Inicio - Carrosel -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-interval="3000" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="/assets/img/waffer.jpg" class="d-block w-100 imagem-carrosel3" alt="waffels">
+            <div class="carousel-caption d-none d-md-block h-50">
+                <h1 class="fonte-titulo display-4">Comece seu dia, bem feliz!</h1>
+                
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img src="/assets/img/brigadeiro.jpg" class="d-block w-100 imagem-carrosel" alt="brigadeiro">
+            <div class="carousel-caption d-none d-md-block h-50">
+                <h1 class="fonte-titulo display-4">Amar é dar brigadeiro a quem se ama!</h1>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img src="/assets/img/cake.jpg" class="d-block w-100 imagem-carrosel2" alt="bolo">
+            <div class="carousel-caption d-none d-md-block h-50">
+                <h1 class="fonte-titulo display-4">Bolo é carinho em forma de comida!</h1>
+            </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+    </section>
+    <!-- Fim - Carrosel -->
+
+    <!-- Titulo Especial -->
+    <section id="titulo">
+        <h1 class="text-center fonte-titulo texto-cor-especial pt-4 pb-2">Nosso cardápio</h1>
+    <!-- Subtitulo -->
+        <p class="text-center text-secondary pb-5">Bolos, tortas, waffles e deliciosos brigadeiros</p>
+    </section>
+   
+    <!-- Cards com produtos -->
+    <section class="container bg-light" id="receitas">
+        <div class="row justify-content-center">
+            <!-- CARD 1 -->
+            <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                <img src="/assets/img/brigadeiro_cardapio.jpg" class="card-img-top" alt="Foto cardapio brigadeiro">
+                <div class="card-body">
+                    <h5 class="card-title">Brigadeiros</h5>
+                    <p class="card-text">Deliciosos brigadeiros em diversos sabores</p>
+                    <a href="#" class="btn botao-cor-especial">Veja mais</a>
+                </div>
+            </article>
+            
+            <!--CARD 2  -->
+            <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                <img src="/assets/img/cake_cardapio.jpg" class="card-img-top card-posicao-imagem" alt="Foto bolo">
+                <div class="card-body">
+                    <h5 class="card-title">Bolo</h5>
+                    <p class="card-text">Deliciosos bolos em diversos sabores</p>
+                    <a href="#" class="btn botao-cor-especial">Veja mais</a>
+                </div>
+            </article>
+
+            <!--CARD 3  -->
+            <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                <img src="/assets/img/waffel_cardapio.jpg" class="card-img-top card-posicao-imagem" alt="Foto Waffels">
+                <div class="card-body">
+                    <h5 class="card-title">Waffles</h5>
+                    <p class="card-text">Deliciosos Waffles em diversos sabores</p>
+                    <a href="#" class="btn botao-cor-especial">Veja mais</a>
+                </div>
+            </article>
+
+            <!--CARD 4 -->
+            <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                <img src="/assets/img/tortasalgada-cardapio.jpg" class="card-img-top card-posicao-imagem" alt="Torta Salgada">
+                <div class="card-body">
+                    <h5 class="card-title">Tortas Salgadas</h5>
+                    <p class="card-text">Deliciosass tortas salgadas em diversos sabores</p>
+                    <a href="#" class="btn botao-cor-especial">Veja mais</a>
+                </div>
+            </article>
+
+            <!--CARD 5 -->
+            <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                <img src="/assets/img/torta.jpg" class="card-img-top card-posicao-imagem" alt="Foto doce">
+                <div class="card-body">
+                    <h5 class="card-title">Tortas Doces</h5>
+                    <p class="card-text">Deliciosas tortas doces em diversos sabores</p>
+                    <a href="#" class="btn botao-cor-especial">Veja mais</a>
+                </div>
+            </article>
+
+            <!--CARD 6 -->
+            <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                <img src="/assets/img/donuts_cardapio.jpg" class="card-img-top card-posicao-imagem" alt="Foto Donuts">
+                <div class="card-body">
+                    <h5 class="card-title">Donuts</h5>
+                    <p class="card-text">Deliciosos Donuts em diversos sabores</p>
+                    <a href="#" class="btn botao-cor-especial">Veja mais</a>
+                </div>
+            </article>
+
+        </div>
+    </section>
+</main>
+
+<footer class="bg-secondary p-1">
+    
+    <div class="d-flex justify-content-md-center">
+        <a href="https://www.facebook.com/WDADASDC" target="_blank"><img class="tm-social mt-2 me-3 mb-2" src="assets/img/facebook.svg" alt="Logo facebook"></a>
+   
+        <a href="https://www.instagram.com/gilson.amatos/" target="_blank"><img class="tm-social mt-2" src="/assets/img/instagram.svg" alt="Logo instagram"></a> 
+
+     </div>
+
+    <p class="text-light m-0 text-center">contato: <a class="text-light" href="mailto: amori@amoridoces.com.br">amori@amoridoces.com.br</a></p>
+    <p class="text-light text-center">Todos direitos reservados Gilson Amorim &copy;</p>
+    
+</footer>
+<!-- Modal -->
+<div class="modal fade" id="modal-contato" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Fale Conosco</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <form class="modal-body">
+        <!-- Nome -->
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome completo</label>
+                <input type="text" class="form-control" id="nome" onkeyup="validaNome()" placeholder="Insira seu nome completo">
+                <div id="txtNome"></div>
+            </div>
+        
+        <!-- E-mail -->
+            <div class="mb-3">
+                <label for="email" class="form-label">Endereço de e-mail
+                </label>
+                <input type="email" class="form-control" id="email" onkeyup="validaEmail()" placeholder="nome@exemplo.com">
+                <div id="txtEmail"></div>
+            </div>
+            
+            <!-- Comentário -->
+            <div class="mb-3">
+                <label for="comentario" class="form-label">Deixe seu comentário</label>
+                <textarea name="Comentario" class="form-control" id="comentario" rows="3" onkeyup="validaComentario()" placeholder="Digita aqui seu comentário"></textarea>
+                <div id="txtComentario"></div>
+            </div>
+    </form>
+      
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        <button type="button" class="btn botao-cor-especial" onclick ="enviar()">Enviar</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- Js Local -->
+    <script src="/assets/js/script.js"></script>
+    <!-- Bootstrp JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script> 
+</body>
+</html>

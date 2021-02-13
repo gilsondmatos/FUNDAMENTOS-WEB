@@ -1,0 +1,64 @@
+.produto {
+   display: flex;
+    height: calc(100vh - 4.25rem);
+}
+.produto__foto {
+    width: 40%;
+    height: 90%;
+    background-image: url(../img/produto2.png);
+    background-attachment: fixed;
+    background-size: 49rem;
+    background-position: -22% top;
+    background-repeat: no-repeat;
+}
+
+.produto__descricao {
+    width: 60%;
+    padding-top: 3rem;
+    box-sizing: border-box;
+    color: var(--cinza);
+}
+
+.produto__marca {
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-weight: 800;
+    color: var(--rosa-claro);
+    letter-spacing: 0.5rem;
+    line-height: 9rem;
+}
+
+.produto__texto {
+    width: 40rem;
+    letter-spacing: 0.125rem;
+    line-height: 1.25rem;
+    margin-bottom: 1rem;
+  
+    font-size: 18px;
+}
+
+.produto__sejavoluntario {
+    position: absolute;
+    bottom: 0;
+    margin-top: 5rem;
+
+    border: none;
+
+    color: var(--branco);
+    font-weight: 900;
+    letter-spacing: 0.25rem;
+    font-family: inherit;
+    text-transform: uppercase;
+
+    border-radius: 35px;
+
+    background-color: var(--laranja);
+
+    min-width: 10.75rem;
+
+    padding: 1.25rem 1rem;
+
+    box-sizing: border-box;
+
+
+}
